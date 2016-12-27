@@ -56,6 +56,7 @@ the 2nd for to revert the patches which applied earlier
 		patch -p1 < audio.patch
 		patch -R -p1 <audio.patch
 
+<<<<<<< HEAD
 # Patches for coreprimeve3g
 
 * [external/tinyalsa](https://github.com/CyanogenMod/android_external_tinyalsa/compare/cm-13.0...ngoquang2708:cm-13.0.patch)
@@ -64,3 +65,7 @@ the 2nd for to revert the patches which applied earlier
 * [hardware/libhardware](https://github.com/CyanogenMod/android_hardware_libhardware/compare/cm-13.0...ngoquang2708:cm-13.0.patch)
 * [system/core](https://github.com/CyanogenMod/android_system_core/compare/cm-13.0...ngoquang2708:cm-13.0.patch)
 * [system/media](https://github.com/CyanogenMod/android_system_media/compare/cm-13.0...ngoquang2708:cm-13.0.patch)
+=======
+# Patches for grandprimeve3g
+		Inside "patches" folder
+>>>>>>> dcee255... Import patches
