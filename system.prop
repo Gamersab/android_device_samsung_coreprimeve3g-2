@@ -49,12 +49,8 @@ sys.usb.gser.count=4
 ro.ril.hsxpa=1
 ro.ril.gprsclass=10
 persist.radio.multisim.config=dsds
-<<<<<<< HEAD
-ro.telephony.ril_class=coreprimeve3gRIL
-ro.telephony.prop_class=coreprimeve3gRIL$TelephonyPropertyProvider
-ro.telephony.ril.config=setPrefNwTypeOnUnsolConnected,simactivation,sim2gsmonly
-=======
-ro.telephony.ril_class=grandprimeve3gRIL
+ro.telephony.ril_class=SamsungSPRDRIL
+ro.telephony.prop_class=SamsungSPRDRIL$TelephonyPropertyProvider
 ro.telephony.ril.config=setPrefNwTypeOnUnsolConnected,simactivation,radiopower
 ro.ril.telephony.mqanelements=6
 persist.sys.sprd.modemreset=1
